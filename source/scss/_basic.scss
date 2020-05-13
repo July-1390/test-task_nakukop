@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #272733;
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $text-font;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
